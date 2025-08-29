@@ -114,5 +114,9 @@ function showSaved() {
   });
 }
 
+// ...existing code...
+
+document.getElementById('find-cafes-btn').addEventListener('click', getLocation);
+
 // Call getLocation to start
-getLocation();
+//getLocation();
